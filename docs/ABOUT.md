@@ -83,7 +83,26 @@ The project is collecting and using public data for the map explorer and precdit
     - Private Institution
         - GIGA: (Brazil schools and demographic dataset): https://giga.global/
 
-### Useful Link References
+#### Open Data Formats
+
+Considering the initial raw data structure performed, the platform has available the following files:
+
+- Connectivity model (including map explorer feature) : https://github.com/Jobzi-Artificial-Intelligence/ziconnect-app-angular/tree/master/backend/database
+    - V001_populate_locality_map.py
+    - V002_populate_school_location.py
+    - V003_populate_school.py
+    - V004_append_internet_availability_prediction.py
+    - V005_populate_locality_statistics.py
+    - /resources/connectivity_models/final/final_pipeline.pkl
+    - /dunmp/dumpUnicef.sql (Postgres)
+
+- Employability model: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/tree/master/fastapi/resources/employabilityImpact
+    - brazil_employability_history.csv
+    - brazil_northeast_region_employability_history.csv
+    - brazil_northeast_region_school_history.csv
+    - brazil_school_history.csv
+
+#### Useful Link References
 
 [1]:https://www.ibge.gov.br/
 [2]:https://www.ibge.gov.br/estatisticas/economicas/comercio/9016-estatisticas-do-cadastro-central-de-empresas.html?=&t=resultados
