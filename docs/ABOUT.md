@@ -40,6 +40,13 @@ The first service is an Internet Availability Predictor that aims to provide a s
 
 For more detail about the implementation, training and optimization: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/services/internetConnectivityService.py
 
+To run the model we have defined two templates to be loaded:
+
+- Brazilian localities: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/resources/internetConnectivity/brazil_localities.csv
+
+- Brazilian schools: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/resources/internetConnectivity/brazil_schools.csv
+
+
 ### Employability Impact Classifier
 
 The second service measures the employability impact of providing internet access by comparing data on employment rates and job opportunities between municipalities where school internet access has been improved or stagnated over the years. This information helps policymakers and educators understand the importance of reliable internet access for students' future success.
@@ -48,9 +55,20 @@ Allows users to download our data, execute our models, visualize the results/ana
 
 For more detail about the implementation, training and optimization: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/services/employabilityImpactService.py
 
-## Data Open License & Public DataSets Integration
 
-The datasets applicable in this project follow de Public Open Data Source as follow: https://www.gov.br/governodigital/pt-br/dados-abertos
+To run the model we have defined two templates to be loaded:
+
+- Brazilian school history: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/staging/fastapi/resources/employabilityImpact/brazil_school_history.csv
+
+- Brazilian locality history: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/staging/fastapi/resources/employabilityImpact/brazil_employability_history.csv
+
+
+## Open Data License & Public DataSets Integration
+
+Following the availability and distribution Open Data license from Brazilian government, the match for the Open Data license is: PDDL v1.0
+
+In agreement and evidence with this topic, the datasets applicable in this project follow de Public Open Data Source as follows: https://www.gov.br/governodigital/pt-br/dados-abertos
+
 
 ### Public Databases
 
@@ -65,7 +83,7 @@ The project is collecting and using public data for the map explorer and precdit
     - Private Institution
         - GIGA: (Brazil schools and demographic dataset): https://giga.global/
 
-### Additional Link References
+### Useful Link References
 
 [1]:https://www.ibge.gov.br/
 [2]:https://www.ibge.gov.br/estatisticas/economicas/comercio/9016-estatisticas-do-cadastro-central-de-empresas.html?=&t=resultados
