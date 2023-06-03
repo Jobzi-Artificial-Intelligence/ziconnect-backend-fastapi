@@ -1,3 +1,9 @@
+# About us
+
+We are an AI technology and data intelligence startup company focused on the job and education market.
+
+Our purpose is to democratize and equalize the job and education supply and demand in all social levels.
+
 # Our Project
 
 Jobzi has an unique AI technology to collect, deduplicate and normalize job & education data to build predictive models
@@ -32,15 +38,21 @@ However, as this is the first version of our tool, we welcome everyone intereste
 
 The first service is an Internet Availability Predictor that aims to provide a solution for schools lacking internet availability information. It helps policymakers plan and allocate resources more effectively by estimating the likelihood of schools having reliable internet access using demographic and geographic data provided by the user.
 
+For more detail about the implementation, training and optimization: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/services/internetConnectivityService.py
 
 ### Employability Impact Classifier
 
 The second service measures the employability impact of providing internet access by comparing data on employment rates and job opportunities between municipalities where school internet access has been improved or stagnated over the years. This information helps policymakers and educators understand the importance of reliable internet access for students' future success.
 
-
 Allows users to download our data, execute our models, visualize the results/analysis and also download them.
 
-### Public DataSets Integration
+For more detail about the implementation, training and optimization: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/services/employabilityImpactService.py
+
+## Data Open License & Public DataSets Integration
+
+The datasets applicable in this project follow de Public Open Data Source as follow: https://www.gov.br/governodigital/pt-br/dados-abertos
+
+### Public Databases
 
 The project is collecting and using public data for the map explorer and precdition models, considering the main private and public institutions:
 
@@ -53,9 +65,16 @@ The project is collecting and using public data for the map explorer and precdit
     - Private Institution
         - GIGA: (Brazil schools and demographic dataset): https://giga.global/
 
-# About us
+### Additional Link References
 
-We are an AI technology and data intelligence startup company focused on the job and education market.
+[1]:https://www.ibge.gov.br/
+[2]:https://www.ibge.gov.br/estatisticas/economicas/comercio/9016-estatisticas-do-cadastro-central-de-empresas.html?=&t=resultados
+[3]:https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb
+[4]:https://basedosdados.org/dataset/br-inep-ideb?bdm_table=escola
+[5]:https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem-por-escola
+[6]:https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar
+[7]:https://www.ibge.gov.br/cidades-e-estados
 
-Our purpose is to democratize and equalize the job and education supply and demand in all social levels.
+
+
 
