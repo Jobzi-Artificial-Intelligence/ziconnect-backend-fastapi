@@ -67,7 +67,11 @@ To run the model we have defined two templates to be loaded:
 
 Following the availability and distribution Open Data license from Brazilian government, the match for the Open Data license is: PDDL v1.0
 
-In agreement and evidence with this topic, the datasets applicable in this project follow de Public Open Data Source as follows: https://www.gov.br/governodigital/pt-br/dados-abertos
+### GPDR Compliance 
+
+In agreement and evidence with this topic, the datasets applicable in this project doesn't apply to personally idenifying data. Additionally, the Data Providers follow de Public Open Data Source License: https://www.gov.br/governodigital/pt-br/dados-abertos.
+
+The offical website (https://unicef.jobzi.com/data-source-reference) we have the GPDR Compliance available for our users and development and data science communities.
 
 
 ### Public Databases
