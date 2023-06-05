@@ -38,6 +38,8 @@ However, as this is the first version of our tool, we welcome everyone intereste
 
 The first service is an Internet Availability Predictor that aims to provide a solution for schools lacking internet availability information. It helps policymakers plan and allocate resources more effectively by estimating the likelihood of schools having reliable internet access using demographic and geographic data provided by the user.
 
+The statics models implemented for the study are mainly: Decision Tree, Random Forest and XGboost.
+
 For more detail about the implementation, training and optimization: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/services/internetConnectivityService.py
 
 To run the model we have defined two templates to be loaded:
@@ -49,7 +51,7 @@ To run the model we have defined two templates to be loaded:
 
 ### Employability Impact Classifier
 
-The second service measures the employability impact of providing internet access by comparing data on employment rates and job opportunities between municipalities where school internet access has been improved or stagnated over the years. This information helps policymakers and educators understand the importance of reliable internet access for students' future success.
+The second service measures the employability impact of providing internet access by comparing data on employment rates and job opportunities between municipalities where school internet access has been improved or stagnated over the years. This information helps policymakers and educators understand the importance of reliable internet access for students' future success. Our study and results treated though the project is related more with the exploratory analysis and the correlation between connectivity and employability.
 
 Allows users to download our data, execute our models, visualize the results/analysis and also download them.
 
