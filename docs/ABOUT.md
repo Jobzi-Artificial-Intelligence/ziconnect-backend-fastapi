@@ -51,7 +51,7 @@ To run the model we have defined two templates to be loaded:
 
 ### Employability Impact Classifier
 
-The second service measures the employability impact of providing internet access by comparing data on employment rates and job opportunities between municipalities where school internet access has been improved or stagnated over the years. This information helps policymakers and educators understand the importance of reliable internet access for students' future success. Our study and results treated though the project is related more with the exploratory analysis and the correlation between connectivity and employability.
+The second service measures the employability impact of providing internet access by comparing data on employment rates and job opportunities between municipalities where school internet access has been improved or stagnated over the years. This information helps policymakers and educators understand the importance of reliable internet access for students' future success. Our study and results treated through the project is related more to the exploratory analysis and the correlation between connectivity and employability.
 
 Allows users to download our data, execute our models, visualize the results/analysis and also download them.
 
