@@ -6,30 +6,66 @@ This guide explains how to set up your local environment. It includes informatio
 
 ## Requirements
 
-### FastAPI
+### Preconditions
 
-For more information on installing FastAPI, see https://github.com/tiangolo/fastapi. If you are unsure what version of FastAPI runs on your system, run `python --version` in a terminal window.
+- Docker
+- Python3
 
-### pip package manager
+### Clone FastApi Project 
 
-To download and install npm packages, you need an npm package manager. 
+```
+```git clone https://github.com/tiangolo/fastapi
+```
 
+### Run local 
 
-### Docker & Docker-Compose
+#### Install dependencies
 
-To install the Docker package, open a terminal window and run the following command:
+```
+```pip install -r requirements.txt
+```
 
+#### Run server
+
+```
+```uvicorn app.main:app --reload
+```
+
+#### Run test
+
+```
+```pytest fastapi/tests/test_main.py
+```
+
+### Run with docker
+
+#### Run server
+
+```
+```docker-compose up -d --build
+```
+
+#### Run test
+
+```
+```docker-compose exec fastapi pytest fastapi/tests/test_main.py
+```
 ``
 
-## Install package dependencies
+## API documentation (provided by Swagger UI)
 
-To install the all packages dependencies, open a terminal window, access application folder and run the following command:
+```
+```http://127.0.0.1:8000/docs
+```
 
-``
 
 ## Run Development server
 
 Run `` for a dev server. Navigate to `http://localhost:8000/`. The app will automatically reload if you change any of the source files.
+
+```
+```http://127.0.0.1:8000
+```
 
 ## Interact with the FastAPI
 
