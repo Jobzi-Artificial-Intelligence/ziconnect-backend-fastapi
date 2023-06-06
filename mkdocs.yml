@@ -9,13 +9,13 @@ plugins:
   - search
   - same-dir
   - include-markdown
-  - content.code.copy
 
 theme:
   name: material
   features:
   - navigation.tabs
   - navigation.tabs.sticky
+  - content.code.copy
 
 nav:
   - Home: docs/ABOUT.md
