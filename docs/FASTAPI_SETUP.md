@@ -14,7 +14,7 @@ This guide explains how to set up your local environment. It includes informatio
 ### Clone FastApi Project 
 
 ```
-```git clone https://github.com/tiangolo/fastapi
+git clone https://github.com/tiangolo/fastapi
 ```
 
 ### Run local 
@@ -22,19 +22,19 @@ This guide explains how to set up your local environment. It includes informatio
 #### Install dependencies
 
 ```
-```pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 #### Run server
 
 ```
-```uvicorn app.main:app --reload
+uvicorn app.main:app --reload
 ```
 
 #### Run test
 
 ```
-```pytest fastapi/tests/test_main.py
+pytest fastapi/tests/test_main.py
 ```
 
 ### Run with docker
@@ -42,20 +42,19 @@ This guide explains how to set up your local environment. It includes informatio
 #### Run server
 
 ```
-```docker-compose up -d --build
+docker-compose up -d --build
 ```
 
 #### Run test
 
 ```
-```docker-compose exec fastapi pytest fastapi/tests/test_main.py
+docker-compose exec fastapi pytest fastapi/tests/test_main.py
 ```
-``
 
 ## API documentation (provided by Swagger UI)
 
 ```
-```http://127.0.0.1:8000/docs
+http://127.0.0.1:8000/docs
 ```
 
 
@@ -64,7 +63,7 @@ This guide explains how to set up your local environment. It includes informatio
 Run `` for a dev server. Navigate to `http://localhost:8000/`. The app will automatically reload if you change any of the source files.
 
 ```
-```http://127.0.0.1:8000
+http://127.0.0.1:8000
 ```
 
 ## Interact with the FastAPI

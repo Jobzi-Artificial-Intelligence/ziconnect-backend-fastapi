@@ -40,13 +40,13 @@ The first service is an Internet Availability Predictor that aims to provide a s
 
 The statics models implemented for the study are mainly: Decision Tree, Random Forest and XGboost.
 
-For more detail about the implementation, training and optimization: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/services/internetConnectivityService.py
+For more detail about the implementation, training and optimization: [https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/services/internetConnectivityService.py](https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/services/internetConnectivityService.py)
 
 To run the model we have defined two templates to be loaded:
 
-- Brazilian localities: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/resources/internetConnectivity/brazil_localities.csv
+- Brazilian localities: [https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/resources/internetConnectivity/brazil_localities.csv](https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/resources/internetConnectivity/brazil_localities.csv)
 
-- Brazilian schools: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/resources/internetConnectivity/brazil_schools.csv
+- Brazilian schools: [https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/resources/internetConnectivity/brazil_schools.csv](https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/resources/internetConnectivity/brazil_schools.csv)
 
 
 ### Employability Impact Classifier
@@ -55,14 +55,14 @@ The second service measures the employability impact of providing internet acces
 
 Allows users to download our data, execute our models, visualize the results/analysis and also download them.
 
-For more detail about the implementation, training and optimization: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/services/employabilityImpactService.py
+For more detail about the implementation, training and optimization: [https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/services/employabilityImpactService.py](https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/master/fastapi/services/employabilityImpactService.py)
 
 
 To run the model we have defined two templates to be loaded:
 
-- Brazilian school history: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/staging/fastapi/resources/employabilityImpact/brazil_school_history.csv
+- Brazilian school history: [https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/staging/fastapi/resources/employabilityImpact/brazil_school_history.csv](https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/staging/fastapi/resources/employabilityImpact/brazil_school_history.csv)
 
-- Brazilian locality history: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/staging/fastapi/resources/employabilityImpact/brazil_employability_history.csv
+- Brazilian locality history: [https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/staging/fastapi/resources/employabilityImpact/brazil_employability_history.csv](https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/blob/staging/fastapi/resources/employabilityImpact/brazil_employability_history.csv)
 
 
 ## Open Data License & Public DataSets Integration
@@ -71,9 +71,9 @@ Following the availability and distribution Open Data license from Brazilian gov
 
 ### GPDR Compliance 
 
-In agreement and evidence with this topic, the datasets applicable in this project doesn't apply to personally idenifying data. Additionally, the Data Providers follow de Public Open Data Source License: https://www.gov.br/governodigital/pt-br/dados-abertos.
+In agreement and evidence with this topic, the datasets applicable in this project doesn't apply to personally idenifying data. Additionally, the Data Providers follow de Public Open Data Source License: [https://www.gov.br/governodigital/pt-br/dados-abertos](https://www.gov.br/governodigital/pt-br/dados-abertos).
 
-The offical website (https://unicef.jobzi.com/data-source-reference) we have the GPDR Compliance available for our users and development and data science communities.
+The offical website [https://unicef.jobzi.com/data-source-reference](https://unicef.jobzi.com/data-source-reference) we have the GPDR Compliance available for our users and development and data science communities.
 
 
 ### Public Databases
@@ -93,7 +93,7 @@ The project is collecting and using public data for the map explorer and precdit
 
 Considering the initial raw data structure performed, the platform has available the following files:
 
-- Connectivity model (including map explorer feature) : https://github.com/Jobzi-Artificial-Intelligence/ziconnect-app-angular/tree/master/backend/database
+- Connectivity model (including map explorer feature) : [https://github.com/Jobzi-Artificial-Intelligence/ziconnect-app-angular/tree/master/backend/database](https://github.com/Jobzi-Artificial-Intelligence/ziconnect-app-angular/tree/master/backend/database)
     - V001_populate_locality_map.py
     - V002_populate_school_location.py
     - V003_populate_school.py
@@ -102,7 +102,7 @@ Considering the initial raw data structure performed, the platform has available
     - /resources/connectivity_models/final/final_pipeline.pkl
     - /dunmp/dumpUnicef.sql (Postgres)
 
-- Employability model: https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/tree/master/fastapi/resources/employabilityImpact
+- Employability model: [https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/tree/master/fastapi/resources/employabilityImpact](https://github.com/Jobzi-Artificial-Intelligence/ziconnect-backend-fastapi/tree/master/fastapi/resources/employabilityImpact)
     - brazil_employability_history.csv
     - brazil_northeast_region_employability_history.csv
     - brazil_northeast_region_school_history.csv
@@ -110,13 +110,13 @@ Considering the initial raw data structure performed, the platform has available
 
 #### Useful Link References
 
-[1]:https://www.ibge.gov.br/
-[2]:https://www.ibge.gov.br/estatisticas/economicas/comercio/9016-estatisticas-do-cadastro-central-de-empresas.html?=&t=resultados
-[3]:https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb
-[4]:https://basedosdados.org/dataset/br-inep-ideb?bdm_table=escola
-[5]:https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem-por-escola
-[6]:https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar
-[7]:https://www.ibge.gov.br/cidades-e-estados
+    - https://www.ibge.gov.br/
+    - https://www.ibge.gov.br/estatisticas/economicas/comercio/9016-estatisticas-do-cadastro-central-de-empresas.html?=&t=resultados
+    - https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/saeb
+    - https://basedosdados.org/dataset/br-inep-ideb?bdm_table=escola
+    - https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem-por-escola
+    - https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/censo-escolar
+    - https://www.ibge.gov.br/cidades-e-estados
 
 
 

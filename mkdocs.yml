@@ -9,6 +9,7 @@ plugins:
   - search
   - same-dir
   - include-markdown
+  - content.code.copy
 
 theme:
   name: material
